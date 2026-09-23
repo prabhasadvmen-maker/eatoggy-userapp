@@ -45,5 +45,7 @@
 	<true/>
 	<key>UIApplicationSupportsIndirectInputEvents</key>
 	<true/>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Eatoggy needs your location to discover kitchen hubs near you and ensure accurate delivery scheduling.</string>
 </dict>
 </plist>
