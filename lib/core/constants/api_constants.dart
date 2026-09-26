@@ -1,0 +1,48 @@
+class ApiConstants {
+  ApiConstants._();
+
+  static const String baseUrl = "https://api.eatoggy.in/api";
+  static const String serverUrl = "https://api.eatoggy.in";
+  static const String register = "$baseUrl/customer/auth/signup";
+  static const String login = "$baseUrl/customer/auth/login";
+  static const String sendOtp = "$baseUrl/customer-auth/send-otp";
+  static const String verifyOtp = "$baseUrl/customer-auth/verify-otp";
+  static const String customerProfile = "$baseUrl/customer-auth/me";
+  static const String dashboard = "$baseUrl/customer/dashboard";
+  static const String otpLoginRequest = "$baseUrl/customer/auth/otp-login/request";
+  static const String otpLoginVerify = "$baseUrl/customer/auth/otp-login/verify";
+  static const String refreshToken = "$baseUrl/customer/auth/refresh-token";
+  static const String secondaryOtpSend = "$baseUrl/customer/auth/secondary-otp/send";
+  static const String secondaryOtpVerify = "$baseUrl/customer/auth/secondary-otp/verify";
+  static const String customerAddresses = "$baseUrl/customers/addresses";
+  static const String tiffinPlans = "$baseUrl/customers/tiffin-plans";
+  static const String discoveryGourmet = "$baseUrl/customers/discovery/gourmet";
+  static const String cartItems = "$baseUrl/cart/items";
+  static String cartItem(String itemId) => "$baseUrl/cart/items/$itemId";
+  static const String cart = "$baseUrl/cart";
+  static const String categories = "$baseUrl/categories";
+  static const String customerCategories = "$baseUrl/customer/categories";
+  static const String customerWallet = "$baseUrl/customer/wallet";
+  static const String services = "$baseUrl/services";
+  static String serviceDetails(String id) => "$baseUrl/services/details/$id";
+  static const String customerNotifications = "$baseUrl/customer/notifications";
+  static const String subscribeNotificationToken = "$baseUrl/notifications/subscribe";
+  static const String bookings = "$baseUrl/bookings";
+  static const String myBookings = "$baseUrl/bookings/my-bookings";
+  static const String bookingDetail = "$baseUrl/bookings";
+  static const String chat = "$baseUrl/v1/chat";
+  static const String translate = "$baseUrl/translation/translate";
+  static const String translateBatch = "$baseUrl/translation/translate-batch";
+  static const String addMoney = "$baseUrl/customer/wallet/add-money";
+  static const String featuredServices = "$baseUrl/customer/services/featured";
+  static const String offers = "$baseUrl/customer/offers";
+  static const String aiChatHistory = "$baseUrl/customer/ai-chat/history";
+  static const String aiChatSend = "$baseUrl/customer/ai-chat";
+  static const String customerReferral = "$baseUrl/customer/referral";
+  static const String customerFaqs = "$baseUrl/customer/faqs";
+  static const String customerPrivacyPolicy = "$baseUrl/public/policies/customer/privacy_policy";
+  static const String customerTermsAndConditions = "$baseUrl/public/policies/customer/terms_and_conditions";
+  static const String starterPack = "$baseUrl/customer/starter-pack";
+  static String servicePackages(String serviceId) => "$baseUrl/packages/service/$serviceId";
+  static const String geoapifyApiKey = "2ecb147800e2472eab47bbfeaf5d010a";
+}
